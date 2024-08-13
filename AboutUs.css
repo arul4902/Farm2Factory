@@ -1,0 +1,70 @@
+.about-us {
+  padding: 20px;
+}
+
+.about-us-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-us-title {
+  color: #28a745;
+  font-size: 2rem;
+}
+
+.about-us-subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #6c757d;
+}
+
+.about-us-text {
+  font-size: 1rem;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.about-us-image-container, .about-us-images {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.about-us-images {
+  gap: 20px; /* To add some spacing between multiple images */
+}
+
+.about-us-image {
+  max-width: 50%;
+  border-radius: 8px;
+  height: 50%;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-image {
+  max-width: 100%;
+  border-radius: 8px;
+  width: 4cm;
+}
+
+.team-member h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #28a745;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #6c757d;
+}

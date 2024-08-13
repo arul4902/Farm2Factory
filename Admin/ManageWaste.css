@@ -1,0 +1,157 @@
+/* Container styling */
+.manage-waste-container1 {
+    max-width: 600px;
+    margin: 0 auto; /* Center-align container */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .manage-waste-container1 h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Form styling */
+  .manage-waste-container1 form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .manage-waste-container1 input,
+  .manage-waste-container1 select,
+  .manage-waste-container1 button {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; /* Full width for form elements */
+  }
+  
+  .manage-waste-container1 input:focus,
+  .manage-waste-container1 select:focus {
+    border-color: green;
+    outline: none;
+  }
+  
+  /*.manage-waste-container1 button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  .manage-waste-container1 button:hover {
+    background-color: green;
+  }
+    */
+  
+  .manage-waste-container1 button.cancel {
+    background-color: #6c757d;
+  }
+  
+  .manage-waste-container1 button.cancel:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Product list styling */
+  .manage-waste-container1 h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center; /* Center-align heading */
+  }
+  
+  .manage-waste-container1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .manage-waste-container1 li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-waste-container1 li span {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /*
+  .manage-waste-container1 li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .manage-waste-container1 li button:hover {
+    background-color: #c82333;
+  }
+    */
+  
+  .manage-waste-container1 li div {
+    display: flex;
+    gap: 10px;
+  }
+/* ManageWaste.css */
+
+/* Style for the Edit button */
+.edit-button {
+  background-color: #4CAF50; /* Green background */
+  color: white;              /* White text */
+  border: none;              /* Remove default border */
+  padding: 10px 20px;        /* Padding */
+  text-align: center;        /* Center text */
+  text-decoration: none;     /* Remove underline */
+  display: inline-block;     /* Inline block display */
+  font-size: 16px;           /* Font size */
+  margin: 4px 2px;           /* Margin */
+  cursor: pointer;           /* Pointer cursor on hover */
+  border-radius: 4px;        /* Rounded corners */
+}
+
+/* Optional: Add hover effect */
+
+.delete1-button {
+  background-color: red; /* Green background */
+  color: white;              /* White text */
+  border: none;              /* Remove default border */
+  padding: 10px 20px;        /* Padding */
+  text-align: center;        /* Center text */
+  text-decoration: none;     /* Remove underline */
+  display: inline-block;     /* Inline block display */
+  font-size: 16px;           /* Font size */
+  margin: 4px 2px;           /* Margin */
+  cursor: pointer;           /* Pointer cursor on hover */
+  border-radius: 4px;        /* Rounded corners */
+}
+
+/* Optional: Add hover effect */
+.delete1-button:hover {
+  background-color: red; /* Darker green on hover */
+}
+
+
+  

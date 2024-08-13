@@ -1,0 +1,108 @@
+/* FarmerProduct.css */
+.container-product-page {
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 90%;
+  width: 80%;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-price {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.modal.fade.show {
+  display: block;
+}
+
+.modal-dialog {
+  margin: 30px auto;
+}
+
+.modal-content {
+  border-radius: 0.3rem;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+/* industryProduct.css */
+
+/* Background blur effect when modal is open */
+/* CSS for the modal backdrop */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px); /* Adjust the blur intensity */
+  z-index: 1040; /* Ensure it sits behind the modal */
+}
+
+.modal-content {
+  position: relative;
+  z-index: 1050; /* Ensure it sits above the backdrop */
+}
+
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050; /* Ensure it's above the backdrop */
+}
+
+.modal-dialog {
+  max-width: 600px;
+  margin: 0;
+}
+
+
+
+

@@ -1,0 +1,23 @@
+/* AdminDashboard.css */
+
+.table {
+    margin-top: 1rem;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .modal-content {
+    border-radius: 0.5rem;
+  }
+  
+  .modal-header, .modal-footer {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .btn {
+    border-radius: 0.25rem;
+  }
+  
